@@ -10,6 +10,13 @@
 | git diff --staged | diff of what is staged but not yet commited |
 | git commit -m “[descriptive message]” | commit your staged content as a new commit snapshot |
 
+| git branch | list your branches. a * will appear next to the currently active branch |
+| git checkout -b [branch_name] | create new branch and switch this branch |
+| git push [alias] [new_branch_name] | transmit new branch to remote repository |
+| git diff | diff of what is changed but not staged |
+| git diff | diff of what is changed but not staged |
+
+
 
 
 
