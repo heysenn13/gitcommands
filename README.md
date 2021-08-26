@@ -10,7 +10,7 @@
 | git diff --staged | diff of what is staged but not yet commited |
 | git commit -m “[descriptive message]” | commit your staged content as a new commit snapshot |
 
-## Create branch and rename branch 
+### Create branch and rename branch 
 
 | Command | Description |
 | --- | --- |
@@ -21,6 +21,14 @@
 | git branch -m [new_branch_name] | rename branch name |
 | git push [alias] -u [new_branch_name] | transmit branch that renamed |
 | git push [alias] -delete [old_branch_name] | delete old branch from remote |
+
+### Sharing & Updating
+
+| Command | Description |
+| --- | --- |
+| git push [alias] [branch] | Push a branch to your remote repository |
+| git push -u origin [branch name] | Push changes to remote repository (and remember the branch) |
+| git pull] | Update local repository to the newest commit |
 
 
 
