@@ -17,8 +17,10 @@
 | git branch | list your branches. a * will appear next to the currently active branch |
 | git checkout -b [branch_name] | create new branch and switch this branch |
 | git push [alias] [new_branch_name] | transmit new branch to remote repository |
-| git diff | diff of what is changed but not staged |
-| git diff | diff of what is changed but not staged |
+| git checkout | switch to another branch |
+| git branch -m [new_branch_name] | rename branch name |
+| git push [alias] -u [new_branch_name] | transmit branch that renamed |
+| git push [alias] -delete [old_branch_name] | delete old branch from remote |
 
 
 
